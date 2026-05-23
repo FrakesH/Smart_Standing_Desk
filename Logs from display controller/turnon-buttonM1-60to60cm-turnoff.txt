@@ -1,0 +1,2011 @@
+❯ esphome logs desk.yaml
+INFO ESPHome 2023.12.9
+INFO Reading configuration desk.yaml...
+Found multiple options for logging, please choose one:
+  [1] /dev/cu.usbmodem5C361475241 (USB Single Serial)
+  [2] Over The Air (desk.local)
+(number): 1
+INFO Starting log output from /dev/cu.usbmodem5C361475241 with baud rate 115200
+[00:03:07][ET6226M +486918ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +486918ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:07][ET6226M +486918ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:07][ET6226M +486919ms] 0x60 0x00 -> cmd?
+[00:03:07][ET6226M +486948ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +486948ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:07][ET6226M +486948ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:07][ET6226M +486949ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:07][ET6226M +486949ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +486978ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +486978ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:07][ET6226M +486979ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:07][ET6226M +486979ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +487008ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +487008ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:07][ET6226M +487008ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:07][ET6226M +487009ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:07][ET6226M +487009ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +487038ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +487038ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:07][ET6226M +487038ms] 0xD8 0x7F -> cmd?
+[00:03:07][ET6226M +487039ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:07][ET6226M +487039ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +487068ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +487068ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:07][ET6226M +487068ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:07][ET6226M +487069ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:07][ET6226M +487069ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +487098ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +487098ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:07][ET6226M +487098ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:07][ET6226M +487099ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:07][ET6226M +487099ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:07][ET6226M +487128ms] 0x48 0x51 -> display ctrl
+[00:03:07][ET6226M +487128ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:07][ET6226M +487128ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:07][ET6226M +487128ms] 0x5C 0x7F -> cmd?
+[00:03:07][ET6226M +487129ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487158ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487158ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487158ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487158ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487159ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487187ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487188ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487188ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487189ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487217ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487218ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487218ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487218ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487219ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487247ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487248ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487248ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487249ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487277ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487278ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487278ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487279ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487307ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487308ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487308ms] 0x78 0x7F -> cmd?
+[00:03:08][ET6226M +487309ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487337ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487338ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487338ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487339ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487367ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487368ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:08][ET6226M +487368ms] 0x59 0xFE -> cmd?
+[00:03:08][ET6226M +487368ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487369ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487397ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487398ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487398ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487399ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487427ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487428ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487428ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487428ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487428ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487457ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487458ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487458ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487458ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487458ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487487ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487487ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487488ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487488ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487488ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487517ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487517ms] 0x54 0xFB -> cmd?
+[00:03:08][ET6226M +487518ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487518ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487518ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487547ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487547ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487548ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487548ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487548ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487577ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487577ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487578ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487578ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487578ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487607ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487607ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487608ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487608ms] 0x6E 0xFE -> pos3: d=-1 dp=1 raw=0xFE
+[00:03:08][ET6226M +487608ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487637ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487637ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487638ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487638ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487638ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487667ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487667ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487668ms] 0x58 0x7F -> cmd?
+[00:03:08][ET6226M +487668ms] 0x7C 0xFE -> cmd?
+[00:03:08][ET6226M +487668ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487697ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487697ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487698ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487698ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:08][ET6226M +487698ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487727ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487727ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487728ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487728ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487728ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487757ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487757ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487758ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487758ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487758ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487787ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487787ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487788ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487788ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487788ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487817ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487817ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487818ms] 0x6D 0xFE -> cmd?
+[00:03:08][ET6226M +487818ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:08][ET6226M +487818ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487847ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487847ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487848ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487848ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487848ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487877ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487877ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487877ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487878ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487878ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487907ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +487907ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +487907ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +487908ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487908ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487937ms] 0x48 0x23 -> display ctrl
+[00:03:08][ET6226M +487937ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487937ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +487938ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487938ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487967ms] 0x48 0x43 -> display ctrl
+[00:03:08][ET6226M +487967ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487968ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487968ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +487997ms] 0x48 0x53 -> display ctrl
+[00:03:08][ET6226M +487997ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:08][ET6226M +487998ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +487998ms] 0xD0 0x00 -> cmd?
+[00:03:08][ET6226M +488027ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +488027ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +488028ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +488028ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +488057ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +488057ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:08][ET6226M +488057ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +488058ms] 0x70 0x00 -> cmd?
+[00:03:08][ET6226M +488087ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +488087ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:08][ET6226M +488087ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:08][ET6226M +488088ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +488088ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +488117ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +488117ms] 0xD4 0xFB -> cmd?
+[00:03:08][ET6226M +488117ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:08][ET6226M +488118ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:08][ET6226M +488118ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:08][ET6226M +488147ms] 0x48 0x51 -> display ctrl
+[00:03:08][ET6226M +488147ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:09][ET6226M +488147ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488148ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488148ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488177ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488177ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488177ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488178ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488178ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488207ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488207ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488207ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488208ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488208ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488237ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488237ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488237ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488238ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488238ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488267ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488267ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +488267ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488268ms] 0x5C 0x7F -> cmd?
+[00:03:09][ET6226M +488268ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488297ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488297ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488297ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488297ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488298ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488327ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488327ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +488327ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488327ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488328ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488357ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488357ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488357ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488357ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488387ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488387ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488387ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488387ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488388ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488416ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488417ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +488417ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488417ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488418ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488446ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488447ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488447ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488447ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488448ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488476ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488477ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +488477ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488477ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488478ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488506ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488507ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488507ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488507ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488508ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488536ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488537ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488537ms] 0x78 0x7F -> cmd?
+[00:03:09][ET6226M +488537ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488538ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488566ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488567ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488567ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488568ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488596ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488597ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488597ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488597ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488598ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488626ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488627ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +488627ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488627ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488628ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488656ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488657ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488657ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488658ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488686ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488687ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488687ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488688ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488716ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488717ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:09][ET6226M +488717ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488718ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488746ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488747ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488747ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488747ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488747ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488776ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488777ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488777ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488777ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488806ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488807ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488807ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488807ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488807ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488836ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488837ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488837ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488837ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488866ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488867ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488867ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488867ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488896ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488896ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488897ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488897ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488897ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488926ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488926ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +488927ms] 0x6C 0xFF -> pos2: d=8 dp=1 raw=0xFF
+[00:03:09][ET6226M +488927ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +488927ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488956ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488956ms] 0x6A 0xF6 -> pos1: d=-1 dp=1 raw=0xF6
+[00:03:09][ET6226M +488957ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488957ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488957ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +488986ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +488986ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:09][ET6226M +488987ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +488987ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +488987ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +489016ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +489016ms] 0x54 0xFB -> cmd?
+[00:03:09][ET6226M +489017ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +489017ms] 0x5C 0x7F -> cmd?
+[00:03:09][ET6226M +489017ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +489046ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +489046ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:09][ET6226M +489047ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +489047ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:09][ET6226M +489047ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +489076ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +489076ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +489077ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +489077ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:09][ET6226M +489077ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +489106ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +489106ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +489107ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +489107ms] 0x6C 
+[00:03:09][ET6226M +489107ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:09][ET6226M +489136ms] 0x48 0x51 -> display ctrl
+[00:03:09][ET6226M +489136ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:09][ET6226M +489137ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:09][ET6226M +489137ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489137ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489166ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489166ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:10][ET6226M +489167ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489167ms] 0x6C 0x7E -> pos2: d=-1 dp=0 raw=0x7E
+[00:03:10][ET6226M +489167ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489196ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489196ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489196ms] 0x58 0x7F -> cmd?
+[00:03:10][ET6226M +489197ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489197ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489226ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489226ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489226ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489227ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489227ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489256ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489256ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489256ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489257ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489257ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489286ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489286ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489286ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489287ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489287ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489316ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489316ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:10][ET6226M +489316ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489317ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489346ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489346ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489346ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489347ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:10][ET6226M +489347ms] 0x50 0x00 -> cmd?
+[00:03:10][ET6226M +489376ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489376ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489376ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489377ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489377ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489406ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489406ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489406ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489407ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489407ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489436ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489436ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489437ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489466ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489466ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489466ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489467ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489467ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489496ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489496ms] 0x48 0xF6 -> display ctrl
+[00:03:10][ET6226M +489496ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489497ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489497ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489526ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489526ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489526ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489527ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:10][ET6226M +489527ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489556ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489556ms] 0x6A 0x76 -> pos1: d=-1 dp=0 raw=0x76
+[00:03:10][ET6226M +489556ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489557ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489586ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489586ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489586ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489586ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489587ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489616ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489616ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489616ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489616ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489617ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489646ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489646ms] 0x6A 0xF6 -> pos1: d=-1 dp=1 raw=0xF6
+[00:03:10][ET6226M +489646ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489646ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489647ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489675ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489676ms] 0xD4 0xF6 -> cmd?
+[00:03:10][ET6226M +489676ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489676ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489677ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489705ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489706ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489706ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489706ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489707ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489735ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489736ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489736ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489736ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489737ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489765ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489766ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489766ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:10][ET6226M +489766ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489767ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489795ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489796ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489796ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489796ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489797ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489825ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489826ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:10][ET6226M +489826ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489826ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489827ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489855ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489856ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489856ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489856ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489857ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489885ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489886ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489886ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489886ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +489887ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489915ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489916ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489916ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489916ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489917ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489945ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489946ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489946ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489946ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489946ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +489975ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +489976ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +489976ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +489976ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +489976ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +490005ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +490006ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:10][ET6226M +490006ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +490006ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +490006ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +490035ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +490036ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +490036ms] 0x58 0x7F -> cmd?
+[00:03:10][ET6226M +490036ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +490036ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +490065ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +490065ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +490066ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:10][ET6226M +490066ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +490066ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +490095ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +490095ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +490096ms] 0x58 0x7F -> cmd?
+[00:03:10][ET6226M +490096ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +490096ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:10][ET6226M +490125ms] 0x48 0x51 -> display ctrl
+[00:03:10][ET6226M +490125ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:10][ET6226M +490126ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:10][ET6226M +490126ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:10][ET6226M +490126ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490155ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490155ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490156ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490156ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490156ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490185ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490185ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490186ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490186ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490215ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490215ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:11][ET6226M +490216ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490216ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490216ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490245ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490245ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490246ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490246ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490275ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490275ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:11][ET6226M +490276ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490276ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490305ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490306ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490306ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490335ms] 0x40 0xA3 -> cmd?
+[00:03:11][ET6226M +490335ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:11][ET6226M +490336ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490336ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490336ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490365ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490365ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490366ms] 0x58 0x7F -> cmd?
+[00:03:11][ET6226M +490366ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:11][ET6226M +490366ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490395ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490395ms] 0xD4 0xFB -> cmd?
+[00:03:11][ET6226M +490395ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490396ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490396ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490425ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490425ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490425ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490426ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:11][ET6226M +490426ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490455ms] 0x48 0x63 -> display ctrl
+[00:03:11][ET6226M +490455ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490455ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490456ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490456ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490485ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490485ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490485ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490486ms] 0x5C 0x7F -> cmd?
+[00:03:11][ET6226M +490486ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490515ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490515ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490515ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490516ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490516ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490545ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490545ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490545ms] 0x6C 0xFF -> pos2: d=8 dp=1 raw=0xFF
+[00:03:11][ET6226M +490546ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490546ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490575ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490575ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490575ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490576ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:11][ET6226M +490576ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490605ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490605ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490605ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490606ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490606ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490635ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490635ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490635ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490636ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490636ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490665ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490665ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490665ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490666ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490666ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490695ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490695ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:11][ET6226M +490695ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490696ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490696ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490725ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490725ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490725ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490726ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490726ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490755ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490755ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490755ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490755ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490756ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490785ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490785ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:11][ET6226M +490785ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490785ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490786ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490815ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490815ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490815ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490815ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490845ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490845ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490845ms] 0x58 0x7F -> cmd?
+[00:03:11][ET6226M +490845ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490846ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490874ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490875ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490875ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490875ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490876ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490904ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490905ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490905ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +490906ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490934ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490935ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +490935ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490936ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +490964ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490965ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:11][ET6226M +490965ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +490966ms] 0xD0 0x00 -> cmd?
+[00:03:11][ET6226M +490994ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +490995ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:11][ET6226M +490995ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +490996ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +491024ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +491025ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +491025ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +491025ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +491026ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +491054ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +491055ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +491055ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +491055ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:11][ET6226M +491055ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +491084ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +491085ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:11][ET6226M +491085ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +491085ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +491114ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +491115ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:11][ET6226M +491115ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:11][ET6226M +491115ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:11][ET6226M +491144ms] 0x48 0x51 -> display ctrl
+[00:03:11][ET6226M +491145ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491145ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491145ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491174ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491174ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491175ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491175ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491175ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491204ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491204ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491205ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491205ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:12][ET6226M +491205ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491234ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491234ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491235ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491235ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491235ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491264ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491264ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491265ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491265ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491265ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491294ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491294ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491295ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491295ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491295ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491324ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491324ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491325ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491325ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491325ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491354ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491354ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491355ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491355ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491355ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491384ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491384ms] 0x6A 0xF6 -> pos1: d=-1 dp=1 raw=0xF6
+[00:03:12][ET6226M +491385ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491385ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491385ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491414ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491414ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491415ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491415ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491415ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491444ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491444ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:12][ET6226M +491444ms] 0x58 0x7F -> cmd?
+[00:03:12][ET6226M +491445ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491445ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491474ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491474ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491474ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491475ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491475ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491504ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491504ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491504ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491505ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491505ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491534ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491534ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491534ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491535ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491535ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491564ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491564ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:12][ET6226M +491564ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491565ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491565ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491594ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491594ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491594ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491595ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491595ms] 0x50 0x00 -> cmd?
+[00:03:12][ET6226M +491624ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491624ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491624ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491625ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491625ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491654ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491654ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491654ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491655ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491655ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491684ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491684ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491684ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491685ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491685ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491714ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491714ms] 0x64 0xFB -> cmd?
+[00:03:12][ET6226M +491714ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491715ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491715ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491744ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491744ms] 0x54 0xF6 -> cmd?
+[00:03:12][ET6226M +491744ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491745ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491745ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491774ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491774ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491775ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491804ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491804ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:12][ET6226M +491804ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491805ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491834ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491834ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491834ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491834ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491835ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491864ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491864ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:12][ET6226M +491864ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491864ms] 0xDC 0xFE -> cmd?
+[00:03:12][ET6226M +491865ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491893ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491894ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:12][ET6226M +491894ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491894ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491895ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491923ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491924ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491924ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491924ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491925ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491953ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491954ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +491954ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491954ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +491955ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +491983ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +491984ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:12][ET6226M +491984ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +491984ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +491985ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +492013ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +492014ms] 0x54 0xFB -> cmd?
+[00:03:12][ET6226M +492014ms] 0x78 0x7F -> cmd?
+[00:03:12][ET6226M +492014ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +492015ms] 0x50 0x00 -> cmd?
+[00:03:12][ET6226M +492043ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +492044ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +492044ms] 0x6C 0xFF -> pos2: d=8 dp=1 raw=0xFF
+[00:03:12][ET6226M +492044ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +492045ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +492073ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +492074ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +492074ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +492074ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:12][ET6226M +492075ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +492103ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +492104ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +492104ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:12][ET6226M +492104ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +492105ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:12][ET6226M +492133ms] 0x48 0x51 -> display ctrl
+[00:03:12][ET6226M +492134ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:12][ET6226M +492134ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +492134ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:12][ET6226M +492134ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492163ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492164ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492164ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492164ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492164ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492193ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492194ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492194ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492194ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492194ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492223ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492223ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492224ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492224ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492224ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492253ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492253ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492254ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492254ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492254ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492283ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492283ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492284ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492284ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492284ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492313ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492313ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492314ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492314ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492314ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492343ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492343ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492344ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492344ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492344ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492373ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492373ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492374ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492374ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:13][ET6226M +492374ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492403ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492403ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:13][ET6226M +492404ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492404ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492433ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492433ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492434ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492463ms] 0x50 0xA3 -> cmd?
+[00:03:13][ET6226M +492463ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492464ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492464ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492464ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492493ms] 0x48 0xA3 -> display ctrl
+[00:03:13][ET6226M +492493ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492494ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492494ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492523ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492524ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492524ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492553ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492553ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492553ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492554ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:13][ET6226M +492554ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492583ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492583ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492583ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492584ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492613ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492613ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492613ms] 0x58 0x7F -> cmd?
+[00:03:13][ET6226M +492614ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492614ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492643ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492643ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492643ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492644ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492673ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492673ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:13][ET6226M +492673ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492674ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:13][ET6226M +492674ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492703ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492703ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492703ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492704ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492704ms] 0x70 0x00 -> cmd?
+[00:03:13][ET6226M +492733ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492733ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492733ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492734ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492734ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492763ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492763ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492763ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492764ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492764ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492793ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492793ms] 0x74 0xFB -> cmd?
+[00:03:13][ET6226M +492793ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492794ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492794ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492823ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492823ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:13][ET6226M +492823ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492824ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492824ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492853ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492853ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492853ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492854ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492854ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492883ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492883ms] 0x6A 0x76 -> pos1: d=-1 dp=0 raw=0x76
+[00:03:13][ET6226M +492883ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492884ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492884ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492913ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492913ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +492913ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492913ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492914ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492943ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492943ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:13][ET6226M +492943ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492943ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +492944ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +492973ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +492973ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:13][ET6226M +492973ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +492973ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +492974ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +493002ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +493003ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +493003ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +493003ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +493004ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +493032ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +493033ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +493033ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +493033ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:13][ET6226M +493034ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +493062ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +493063ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +493063ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +493063ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:13][ET6226M +493064ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +493092ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +493093ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +493093ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:13][ET6226M +493093ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +493094ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:13][ET6226M +493122ms] 0x48 0x51 -> display ctrl
+[00:03:13][ET6226M +493123ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:13][ET6226M +493123ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:13][ET6226M +493152ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493153ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493153ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493153ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493154ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493182ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493183ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493183ms] 0x6D 0xFE -> cmd?
+[00:03:14][ET6226M +493183ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493184ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493212ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493213ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:14][ET6226M +493213ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493213ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493214ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493242ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493243ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493243ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493243ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493272ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493273ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:14][ET6226M +493273ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493273ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493302ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493303ms] 0x6C 0xFB -> pos2: d=-1 dp=1 raw=0xFB
+[00:03:14][ET6226M +493303ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493303ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493332ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493332ms] 0x54 0xFB -> cmd?
+[00:03:14][ET6226M +493333ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493333ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493333ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493362ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493363ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493363ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493363ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493392ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493392ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493393ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493393ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493393ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493422ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493422ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493423ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493423ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493423ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493452ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493452ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493453ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493453ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493453ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493482ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493482ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493483ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493483ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493483ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493512ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493512ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493513ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493513ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493513ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493542ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493542ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493543ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493543ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493543ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493572ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493572ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493573ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493573ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493573ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493602ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493602ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493603ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493603ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493603ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493632ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493632ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493632ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493633ms] 0x6C 
+[00:03:14][ET6226M +493633ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493662ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493662ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493662ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493663ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493663ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493692ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493692ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493692ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493693ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493693ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493722ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493722ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493722ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493723ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493723ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493752ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493752ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493752ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493753ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493753ms] 0x50 0x00 -> cmd?
+[00:03:14][ET6226M +493782ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493782ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493782ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493783ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +493783ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493812ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493812ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493812ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493813ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493813ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493842ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493842ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493843ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493843ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493872ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493872ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493873ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493902ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493902ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:14][ET6226M +493903ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493903ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493932ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493932ms] 0x6C 0xF6 -> pos2: d=-1 dp=1 raw=0xF6
+[00:03:14][ET6226M +493933ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493962ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493962ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493962ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +493963ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493963ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +493992ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +493992ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +493993ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +493993ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +494022ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +494022ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:14][ET6226M +494022ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +494022ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +494023ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +494052ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +494052ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:14][ET6226M +494052ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +494053ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +494082ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +494082ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:14][ET6226M +494082ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +494082ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:14][ET6226M +494083ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +494111ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +494112ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:14][ET6226M +494112ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:14][ET6226M +494113ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:14][ET6226M +494141ms] 0x48 0x51 -> display ctrl
+[00:03:14][ET6226M +494142ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:14][ET6226M +494142ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494142ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494143ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494171ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494172ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494172ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494173ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494201ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494202ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494202ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494202ms] 0x58 
+[00:03:15][ET6226M +494203ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494231ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494232ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494232ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494232ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494233ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494261ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494262ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494262ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494262ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494263ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494291ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494292ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494292ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494292ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494293ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494321ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494322ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:15][ET6226M +494322ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494322ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494323ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494351ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494352ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494352ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494352ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494353ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494381ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494382ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:15][ET6226M +494382ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494382ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494382ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494411ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494412ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494412ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494412ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494412ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494441ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494442ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494442ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494442ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494442ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494471ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494472ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494472ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494472ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494472ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494501ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494501ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494502ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494502ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494502ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494531ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494531ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494532ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494532ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494532ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494561ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494561ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494562ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494562ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494562ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494591ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494591ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494592ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494592ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494592ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494621ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494621ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494622ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494622ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494622ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494651ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494651ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:15][ET6226M +494652ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494652ms] 0x5C 0x7F -> cmd?
+[00:03:15][ET6226M +494652ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494681ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494681ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:15][ET6226M +494682ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494682ms] 0x7C 0xFE -> cmd?
+[00:03:15][ET6226M +494682ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494711ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494711ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:15][ET6226M +494712ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494712ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494712ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494741ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494741ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494742ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494742ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494771ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494771ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494772ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494772ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494801ms] 0x40 0xA3 -> cmd?
+[00:03:15][ET6226M +494802ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494802ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494802ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494831ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494831ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494832ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494832ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494832ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494861ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494861ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494862ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494862ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494891ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494891ms] 0xD4 0xF6 -> cmd?
+[00:03:15][ET6226M +494891ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494892ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:15][ET6226M +494892ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494921ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494921ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494921ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494922ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:15][ET6226M +494922ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494951ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494951ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +494951ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +494952ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494952ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +494981ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +494981ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:15][ET6226M +494981ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +494982ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +494982ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +495011ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +495011ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +495011ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +495012ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +495012ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +495041ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +495041ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:15][ET6226M +495041ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +495042ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +495042ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +495071ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +495071ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +495071ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +495072ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:15][ET6226M +495072ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +495101ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +495101ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:15][ET6226M +495101ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +495102ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +495102ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:15][ET6226M +495131ms] 0x48 0x51 -> display ctrl
+[00:03:15][ET6226M +495131ms] 0x54 0xFB -> cmd?
+[00:03:15][ET6226M +495131ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:15][ET6226M +495132ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:15][ET6226M +495132ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495161ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495161ms] 0x74 0xFB -> cmd?
+[00:03:16][ET6226M +495161ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495162ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495162ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495191ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495191ms] 0x6C 0xFB -> pos2: d=-1 dp=1 raw=0xFB
+[00:03:16][ET6226M +495191ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495192ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495192ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495221ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495221ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495221ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495222ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495222ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495251ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495251ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:16][ET6226M +495251ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495252ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495252ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495281ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495281ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:16][ET6226M +495281ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495282ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495282ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495311ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495311ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495311ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495311ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495312ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495341ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495341ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495341ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495341ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495342ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495371ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495371ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495371ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495371ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495372ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495400ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495401ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495401ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495401ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495402ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495430ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495431ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495431ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495431ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495432ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495460ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495461ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495461ms] 0x6E 0x7E -> pos3: d=-1 dp=0 raw=0x7E
+[00:03:16][ET6226M +495462ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495490ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495491ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495491ms] 0x69 0xFE -> cmd?
+[00:03:16][ET6226M +495492ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495520ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495521ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:16][ET6226M +495521ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495521ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495522ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495550ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495551ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495551ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495552ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495580ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495581ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495582ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495610ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495611ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495611ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495611ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495612ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495640ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495641ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495641ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495641ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:16][ET6226M +495642ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495670ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495671ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495671ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495671ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495671ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495700ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495701ms] 0x6A 0xF6 -> pos1: d=-1 dp=1 raw=0xF6
+[00:03:16][ET6226M +495701ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495701ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495701ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495730ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495731ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495731ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495731ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495731ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495760ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495761ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495761ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495761ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495761ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495790ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495790ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495791ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495791ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495791ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495820ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495820ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495821ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495821ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495821ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495850ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495850ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495851ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495851ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495851ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495880ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495880ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:16][ET6226M +495881ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495881ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495881ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495910ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495910ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495911ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495911ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495911ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495940ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495940ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495941ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495941ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +495941ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +495970ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +495970ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +495971ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +495971ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +495971ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +496000ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +496000ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +496001ms] 0x58 0x7F -> cmd?
+[00:03:16][ET6226M +496001ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +496001ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +496030ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +496030ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:16][ET6226M +496031ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +496031ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +496031ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +496060ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +496060ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +496061ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +496061ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +496061ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +496090ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +496090ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +496091ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:16][ET6226M +496091ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:16][ET6226M +496091ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:16][ET6226M +496120ms] 0x48 0x51 -> display ctrl
+[00:03:16][ET6226M +496120ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:16][ET6226M +496121ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:16][ET6226M +496121ms] 0xD0 0x00 -> cmd?
+[00:03:16][ET6226M +496150ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496150ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:17][ET6226M +496151ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496151ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496151ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496180ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496180ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:17][ET6226M +496181ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496181ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496210ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496210ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496211ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496211ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496211ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496240ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496240ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496241ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496241ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496270ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496270ms] 0x54 0xFB -> cmd?
+[00:03:17][ET6226M +496270ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496271ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496271ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496300ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496300ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496300ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496301ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496330ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496330ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496330ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496331ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496331ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496360ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496360ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:17][ET6226M +496360ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496361ms] 0xDC 0x7F -> cmd?
+[00:03:17][ET6226M +496361ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496390ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496390ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496391ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496391ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496420ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496420ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496420ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496421ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496421ms] 0x70 0x00 -> cmd?
+[00:03:17][ET6226M +496450ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496450ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496450ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496451ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496451ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496480ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496480ms] 0xD4 0xFB -> cmd?
+[00:03:17][ET6226M +496480ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496481ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496481ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496510ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496510ms] 0x54 0xFB -> cmd?
+[00:03:17][ET6226M +496510ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496511ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496511ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496540ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496540ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496540ms] 0x6C 0xFF -> pos2: d=8 dp=1 raw=0xFF
+[00:03:17][ET6226M +496541ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496541ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496570ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496570ms] 0x54 0xFB -> cmd?
+[00:03:17][ET6226M +496570ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496571ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496571ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496600ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496600ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496600ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496601ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496601ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496630ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496630ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:17][ET6226M +496630ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496631ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496631ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496660ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496660ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496660ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496660ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496661ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496690ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496690ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496690ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496690ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496691ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496720ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496720ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496720ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496720ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496721ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496750ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496750ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:17][ET6226M +496750ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496750ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496751ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496780ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496780ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496780ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496780ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496781ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496809ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496810ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496810ms] 0x58 0x7F -> cmd?
+[00:03:17][ET6226M +496810ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496811ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496839ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496840ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496840ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +496840ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496841ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496869ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496870ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496870ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496899ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496900ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496900ms] 0xD8 0x7F -> cmd?
+[00:03:17][ET6226M +496900ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496901ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +496929ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496930ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496930ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496959ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496960ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +496960ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +496961ms] 0xD0 0x00 -> cmd?
+[00:03:17][ET6226M +496989ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +496990ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:17][ET6226M +496990ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496990ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +496991ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +497019ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +497020ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:17][ET6226M +497020ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +497020ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +497021ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +497049ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +497050ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:17][ET6226M +497050ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +497051ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +497079ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +497080ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +497081ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +497109ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +497110ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +497110ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:17][ET6226M +497110ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:17][ET6226M +497139ms] 0x48 0x51 -> display ctrl
+[00:03:17][ET6226M +497140ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:17][ET6226M +497140ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:17][ET6226M +497140ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497169ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497170ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497170ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497170ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497170ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497199ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497200ms] 0xD4 0xF6 -> cmd?
+[00:03:18][ET6226M +497200ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497200ms] 0x58 0xFE -> cmd?
+[00:03:18][ET6226M +497200ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497229ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497229ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497230ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497230ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497230ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497259ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497259ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497260ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497260ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497260ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497289ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497289ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497290ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497290ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497290ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497319ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497319ms] 0x54 0xFB -> cmd?
+[00:03:18][ET6226M +497320ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497320ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497320ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497349ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497349ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497350ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497350ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497350ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497379ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497379ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497380ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497380ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497380ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497409ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497409ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497410ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497410ms] 0x7C 0x7F -> cmd?
+[00:03:18][ET6226M +497410ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497439ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497439ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497440ms] 0x58 0x7F -> cmd?
+[00:03:18][ET6226M +497440ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497440ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497469ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497469ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497470ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497470ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497470ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497499ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497499ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +497500ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497500ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497500ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497529ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497529ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +497530ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497530ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497530ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497559ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497559ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497560ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497560ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497560ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497589ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497589ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497590ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497590ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497590ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497619ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497619ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:18][ET6226M +497620ms] 0x58 0x7F -> cmd?
+[00:03:18][ET6226M +497620ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497620ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497649ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497649ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +497650ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497650ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497679ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497679ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +497679ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497680ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497680ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497709ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497709ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +497710ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497710ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497739ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497739ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497740ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497740ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497769ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497769ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497769ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497770ms] 0x50 0x00 -> cmd?
+[00:03:18][ET6226M +497799ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497799ms] 0xD4 0xF6 -> cmd?
+[00:03:18][ET6226M +497799ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497800ms] 0x60 0x00 -> cmd?
+[00:03:18][ET6226M +497829ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497829ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497830ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497830ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497859ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497859ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497860ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497860ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497889ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497889ms] 0x6A 0xFB -> pos1: d=-1 dp=1 raw=0xFB
+[00:03:18][ET6226M +497889ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497890ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:18][ET6226M +497890ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497919ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497919ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497919ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497920ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497920ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497949ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497949ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497949ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +497950ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497950ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +497979ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +497979ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +497979ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +497979ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +497980ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +498009ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +498009ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +498009ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +498009ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +498010ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +498039ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +498039ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +498039ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +498039ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:18][ET6226M +498040ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +498068ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +498069ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +498069ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +498069ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:18][ET6226M +498070ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +498098ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +498099ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:18][ET6226M +498099ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +498099ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:18][ET6226M +498100ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:18][ET6226M +498128ms] 0x48 0x51 -> display ctrl
+[00:03:18][ET6226M +498129ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:18][ET6226M +498129ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:18][ET6226M +498129ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:18][ET6226M +498130ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498158ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498159ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498159ms] 0x68 0x7F -> pos0: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498159ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498160ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498188ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498189ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:19][ET6226M +498189ms] 0x6D 0xFE -> cmd?
+[00:03:19][ET6226M +498189ms] 0x6E 0x7F -> pos3: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498190ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498218ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498219ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498219ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498219ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498220ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498248ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498249ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498249ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498249ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498250ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498278ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498279ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498279ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498279ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498280ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498308ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498309ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498309ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498309ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498309ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498338ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498339ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498339ms] 0x58 0x7F -> cmd?
+[00:03:19][ET6226M +498339ms] 0x6C 0xFE -> pos2: d=-1 dp=1 raw=0xFE
+[00:03:19][ET6226M +498339ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498368ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498369ms] 0x6A 0x7B -> pos1: d=-1 dp=0 raw=0x7B
+[00:03:19][ET6226M +498369ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498369ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498369ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498398ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498398ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498399ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498399ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498399ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498428ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498428ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498429ms] 0x6C 0x7F -> pos2: d=8 dp=0 raw=0x7F
+[00:03:19][ET6226M +498429ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498429ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498458ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498458ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498459ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498459ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498459ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498488ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498488ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498489ms] 0x6E 0x3F -> pos3: d=0 dp=0 raw=0x3F
+[00:03:19][ET6226M +498489ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498518ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498518ms] 0x64 0xFB -> cmd?
+[00:03:19][ET6226M +498519ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498519ms] 0x5C 0xFE -> cmd?
+[00:03:19][ET6226M +498519ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498548ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498548ms] 0x6A 0x7D -> pos1: d=6 dp=0 raw=0x7D
+[00:03:19][ET6226M +498549ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498549ms] 0x6E 0xFE -> pos3: d=-1 dp=1 raw=0xFE
+[00:03:19][ET6226M +498549ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498578ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498579ms] 0x6C 0xBF -> pos2: d=0 dp=1 raw=0xBF
+[00:03:19][ET6226M +498579ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498608ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498608ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498609ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498609ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498609ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498638ms] 0x40 0xA3 -> cmd?
+[00:03:19][ET6226M +498638ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498639ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498639ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498639ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498668ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498668ms] 0xD4 0x00 -> cmd?
+[00:03:19][ET6226M +498669ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498669ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498669ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498698ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498698ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498698ms] 0x58 0x00 -> cmd?
+[00:03:19][ET6226M +498699ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498699ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498728ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498728ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498728ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498729ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498729ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498758ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498758ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498758ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498759ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498759ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498788ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498788ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498788ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498789ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498789ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498818ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498818ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498818ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498819ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498819ms] 0x50 0x00 -> cmd?
+[00:03:19][ET6226M +498848ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498848ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498848ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498849ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498849ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498884ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498884ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498884ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498885ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498885ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498914ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498914ms] 0x74 0x00 -> cmd?
+[00:03:19][ET6226M +498914ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498915ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498915ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498944ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498944ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498945ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498945ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498974ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +498974ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498974ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +498975ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499004ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +499004ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499004ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499005ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499034ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +499034ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499034ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499035ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499064ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +499064ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499064ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499064ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499065ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499094ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +499094ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499094ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499095ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499124ms] 0x48 0x51 -> display ctrl
+[00:03:19][ET6226M +499124ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499124ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:19][ET6226M +499125ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499153ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499154ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499154ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499155ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499183ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499184ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499184ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499184ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499185ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499213ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499214ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499214ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499215ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499243ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499244ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499244ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499245ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499273ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499274ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499274ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499274ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499275ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499303ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499304ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499304ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499304ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499305ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499333ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499334ms] 0xD4 0x00 -> cmd?
+[00:03:20][ET6226M +499334ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499334ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499335ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499363ms] 0x48 0x51 -> display ctrl
+[00:03:20][ET6226M +499364ms] 0x6A 0x00 -> pos1: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499364ms] 0x6C 0x00 -> pos2: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499364ms] 0x6E 0x00 -> pos3: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499365ms] 0x68 0x00 -> pos0: d=-1 dp=0 raw=0x00
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+[00:03:20][ET6226M +499498ms] 
+^C%                                                                                                                  ~/Documents/esp ❯           

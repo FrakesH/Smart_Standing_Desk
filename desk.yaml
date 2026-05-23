@@ -37,6 +37,14 @@ globals:
     type: float
     restore_value: no
     initial_value: '0.0'
+  - id: last_activity_time
+    type: uint32_t
+    restore_value: no
+    initial_value: '0'
+  - id: last_known_height
+    type: float
+    restore_value: no
+    initial_value: '0.0'
 
 custom_component:
   - id: main_desk_controller
@@ -58,43 +66,79 @@ sensor:
         force_update: true
         on_value:
           then:
+            - lambda: |-
+                if (abs(x - id(last_known_height)) > 0.05) {
+                  id(last_activity_time) = millis();
+                  id(last_known_height) = x;
+                }
             - if:
                 condition:
                   lambda: 'return id(target_height) > 0.0;'
                 then:
                   - lambda: |-
+                      static uint32_t last_pulse = 0;
                       float current = x;
                       float target = id(target_height);
                       float diff = target - current;
                       
-                      float stop_distance = 0.9; 
-
-                      if (diff > stop_distance) {
-                        pinMode(${pin_up}, OUTPUT); 
-                        digitalWrite(${pin_up}, LOW);
+                      if (abs(diff) <= 0.05) { 
+                        pinMode(${pin_up}, INPUT);
+                        pinMode(${pin_down}, INPUT);
+                        id(target_height) = 0.0;
+                        return;
                       } 
-                      else if (diff < -stop_distance) {
-                        pinMode(${pin_down}, OUTPUT); 
-                        digitalWrite(${pin_down}, LOW);
+                      
+                      if (abs(diff) > 1.5) {
+                        if (diff > 0) {
+                          pinMode(${pin_down}, INPUT);
+                          pinMode(${pin_up}, OUTPUT); 
+                          digitalWrite(${pin_up}, LOW);
+                        } else {
+                          pinMode(${pin_up}, INPUT);
+                          pinMode(${pin_down}, OUTPUT); 
+                          digitalWrite(${pin_down}, LOW);
+                        }
                       } 
                       else {
                         pinMode(${pin_up}, INPUT);
                         pinMode(${pin_down}, INPUT);
-                        id(target_height) = 0.0;
+                        
+                        uint32_t now = millis();
+                        if (now - last_pulse > 600) {
+                          if (diff > 0) {
+                            pinMode(${pin_up}, OUTPUT);
+                            digitalWrite(${pin_up}, LOW);
+                            delay(150);
+                            pinMode(${pin_up}, INPUT);
+                          } else {
+                            pinMode(${pin_down}, OUTPUT);
+                            digitalWrite(${pin_down}, LOW);
+                            delay(150);
+                            pinMode(${pin_down}, INPUT);
+                          }
+                          last_pulse = millis();
+                        }
                       }
+
 number:
   - platform: template
     name: "Target Height"
     id: desk_slider
     min_value: 60
     max_value: 125
-    step: 1
+    step: 0.5
     unit_of_measurement: "cm"
     icon: "mdi:car-seat-cooler"
     optimistic: true
     set_action:
       then:
         - lambda: |-
+            if (millis() - id(last_activity_time) > 10000) {
+              pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); 
+              delay(300);
+            }
+            id(last_activity_time) = millis();
+            
             id(target_height) = x;
             id(actual_height).publish_state(id(actual_height).state);
 
@@ -103,26 +147,46 @@ button:
     name: "Click M"
     icon: "mdi:alpha-m-circle-outline"
     on_press:
-      - lambda: 'pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(200); pinMode(${pin_m}, INPUT);'
+      - lambda: |-
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(200); pinMode(${pin_m}, INPUT);
 
   - platform: template
     name: "Click M1"
     icon: "mdi:numeric-1-circle-outline"
     on_press:
-      - lambda: 'pinMode(${pin_1}, OUTPUT); digitalWrite(${pin_1}, LOW); delay(200); pinMode(${pin_1}, INPUT);'
+      - lambda: |-
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          pinMode(${pin_1}, OUTPUT); digitalWrite(${pin_1}, LOW); delay(200); pinMode(${pin_1}, INPUT);
 
   - platform: template
     name: "Click M2"
     icon: "mdi:numeric-2-circle-outline"
     on_press:
-      - lambda: 'pinMode(${pin_2}, OUTPUT); digitalWrite(${pin_2}, LOW); delay(200); pinMode(${pin_2}, INPUT);'
+      - lambda: |-
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          pinMode(${pin_2}, OUTPUT); digitalWrite(${pin_2}, LOW); delay(200); pinMode(${pin_2}, INPUT);
 
   - platform: template
     name: "Click M3"
     icon: "mdi:numeric-3-circle-outline"
     on_press:
-      - lambda: 'pinMode(${pin_3}, OUTPUT); digitalWrite(${pin_3}, LOW); delay(200); pinMode(${pin_3}, INPUT);'
-      
+      - lambda: |-
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          pinMode(${pin_3}, OUTPUT); digitalWrite(${pin_3}, LOW); delay(200); pinMode(${pin_3}, INPUT);
+
 switch:
   - platform: template
     name: "Hold UP"
@@ -131,8 +195,13 @@ switch:
     optimistic: true
     turn_on_action:
       - lambda: |-
-          id(target_height) = 0.0; // Сбрасываем автоматическое движение, если оно шло
-          pinMode(${pin_down}, INPUT); // Защита от дурака: отключаем движение вниз
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          
+          id(target_height) = 0.0;
+          pinMode(${pin_down}, INPUT);
           pinMode(${pin_up}, OUTPUT); 
           digitalWrite(${pin_up}, LOW);
     turn_off_action:
@@ -145,8 +214,13 @@ switch:
     optimistic: true
     turn_on_action:
       - lambda: |-
-          id(target_height) = 0.0; // Сбрасываем автоматическое движение
-          pinMode(${pin_up}, INPUT); // Защита от дурака: отключаем движение вверх
+          if (millis() - id(last_activity_time) > 10000) {
+            pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); delay(300);
+          }
+          id(last_activity_time) = millis();
+          
+          id(target_height) = 0.0;
+          pinMode(${pin_up}, INPUT);
           pinMode(${pin_down}, OUTPUT); 
           digitalWrite(${pin_down}, LOW);
     turn_off_action:
