@@ -61,7 +61,7 @@ sensor:
         id: actual_height
         unit_of_measurement: "cm"
         accuracy_decimals: 1
-        icon: "mdi:human-male-height-variant"
+        icon: "phu:desk-sit-alt" 
         state_class: measurement
         force_update: true
         on_value:
@@ -133,13 +133,20 @@ number:
     set_action:
       then:
         - lambda: |-
+            float adjusted;
+            if (x < 100.0) {
+              adjusted = round(x * 2.0) / 2.0;
+            } else {
+              adjusted = round(x);
+            }
+            
             if (millis() - id(last_activity_time) > 10000) {
               pinMode(${pin_m}, OUTPUT); digitalWrite(${pin_m}, LOW); delay(100); pinMode(${pin_m}, INPUT); 
               delay(300);
             }
             id(last_activity_time) = millis();
             
-            id(target_height) = x;
+            id(target_height) = adjusted;
             id(actual_height).publish_state(id(actual_height).state);
 
 button:
